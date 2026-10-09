@@ -6,7 +6,7 @@ export default function Atributo(){
     let coracoes = "";
     for (let i=0; i < 5; i++){
 
-        if(i<=valor){
+        if(i<valor){
             coracoes += "❤️"
 
         }
@@ -22,9 +22,8 @@ export default function Atributo(){
                 setValor(0);
             }
             else {
-                setValor(0 + 1);
+                setValor(valor + 1);
             }
-            
 
 
         }} >+</button>
